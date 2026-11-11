@@ -2,7 +2,6 @@
 
 A contract-first SOAP web service for phone number validation, built with Java (JAX-WS) on WildFly and consumed from Java, Python, Node.js, and PHP.
 
-
 ## Architecture & Tech Stack
 * **Backend / Service Provider:** Java (JAX-WS) deployed on WildFly, exposing an explicit WSDL contract.
 * **API Testing & Validation:** SoapUI (used for mocking, request payload inspection, and endpoint verification).
@@ -11,8 +10,6 @@ A contract-first SOAP web service for phone number validation, built with Java (
   * **Python Client:** Integrated using `zeep`.
   * **Node.js Client:** Integrated using `node-soap`.
   * **PHP Client:** Integrated using native `SoapClient`.
-
-
 
 ## Repository Structure
 ```text
@@ -24,8 +21,7 @@ soap_project/
 │   ├── PhoneValidatorNodeClient/        # Node.js client implementation (node-soap)
 │   └── PhoneValidatorPHPClient/         # PHP client implementation (SoapClient)
 └── README.md
-
-
+```
 ## Running the Server
 
 1. Build: `mvn clean package`
@@ -41,4 +37,3 @@ soap_project/
 ### PHP
 `php client.php`
 ### Java
-
